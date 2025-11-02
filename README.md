@@ -18,11 +18,13 @@ A native macOS application that allows you to instantly blur your entire screen 
 ## Features
 
 - **Global Keyboard Shortcuts**: Trigger blur from anywhere, even when the app is in the background
-- **Multi-Monitor Support**: Automatically blurs all connected displays
+- **Multi-Monitor Support**: Blur all monitors or only selected displays (default: all)
 - **Customisable Shortcuts**: Configure your preferred keyboard shortcut through an intuitive settings interface
 - **Native macOS Blur**: Uses macOS's native visual effects for a polished, system-integrated look
+- **Esc to Unblur**: Unblur using the shortcut again or press Esc on the focused blurred display (click-to-unblur removed)
+
 - **Menu Bar Access**: Quick access to settings and controls from the menu bar
-- **Persistent Preferences**: Your keyboard shortcut preferences are saved between app launches
+- **Persistent Preferences**: Your keyboard shortcut and monitor selection preferences are saved between app launches
 - **Privacy-Focused**: No data collection, no network requests, completely offline
 
 ## Requirements
@@ -85,9 +87,9 @@ A native macOS application that allows you to instantly blur your entire screen 
 ### Basic Usage
 
 1. **Activate Blur**: Press the keyboard shortcut (default: `Cmd+Shift+B`)
-2. **Deactivate Blur**: 
+2. **Deactivate Blur**:
    - Press the same keyboard shortcut again, or
-   - Click anywhere on the blurred screen
+   - Press Esc on the blurred display
 
 ### Customising the Keyboard Shortcut
 
@@ -100,7 +102,7 @@ A native macOS application that allows you to instantly blur your entire screen 
 ### Menu Bar Options
 
 - **Toggle Blur**: Manually toggle the blur effect on/off
-- **Settings...**: Open the settings window to customise the keyboard shortcut
+- **Settings...**: Open the settings window to customise the keyboard shortcut and monitor selection
 - **Quit Blur**: Exit the application
 
 ## Default Keyboard Shortcut
@@ -218,7 +220,6 @@ Potential features for future versions:
 
 - [ ] Customisable blur intensity
 - [ ] Different blur styles (light, dark, ultra-dark)
-- [ ] Blur specific screens in multi-monitor setups
 - [ ] Blur specific windows instead of entire screen
 - [ ] Automatic blur when screen sharing is detected
 - [ ] Touch Bar support

@@ -128,7 +128,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             let window = NSWindow(contentViewController: hostingController)
             window.title = "Blur Settings"
             window.styleMask = [.titled, .closable]
-            window.setContentSize(NSSize(width: 500, height: 540))
+            window.setContentSize(NSSize(width: 500, height: 700))
             window.center()
             window.isReleasedWhenClosed = false
             

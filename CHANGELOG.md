@@ -5,6 +5,20 @@ All notable changes to the Blur macOS application will be documented in this fil
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2025-11-02
+
+### Added
+- Granular monitor selection in Settings: blur all monitors or only selected displays (default: all)
+- Per-display monitor options are always visible in Settings
+- Monitor toggles are visually disabled when “Blur all monitors” is ON
+- Settings view now scrolls and has a taller default height; sections have consistent full width
+
+### Changed
+- Unblur behaviour: now only via the shortcut again or by pressing Esc on the focused blurred display
+
+### Removed
+- Click-to-dismiss blur functionality
+
 ## [1.1.0] - 2025-11-02
 
 ### Added
@@ -90,3 +104,4 @@ When releasing a new version, move the `[Unreleased]` changes to a new version s
 
 [1.0.0]: https://github.com/Sharma-IT/blur/releases/tag/v1.0.0
 [1.1.0]: https://github.com/Sharma-IT/blur/releases/tag/v1.1.0
+[1.2.0]: https://github.com/Sharma-IT/blur/releases/tag/v1.2.0
