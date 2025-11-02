@@ -1,4 +1,13 @@
-# Blur - macOS Screen Blur Application
+<p align="center">
+  <p align="center">
+   <img width="200" height="200" alt="blur_logo" src="https://github.com/user-attachments/assets/6afb2454-5ff1-4e13-a140-f6240c459904" />
+  </p>
+	<h1 align="center"><b>Blur</b></h1>
+	<p align="center">
+		macOS Screen Blur Application
+  </p>
+</p>
+<br/>
 
 A native macOS application that allows you to instantly blur your entire screen with a customisable keyboard shortcut. Perfect for privacy during screen sharing, presentations, or when you need to quickly hide sensitive information.
 
