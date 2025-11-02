@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Click-to-dismiss blur functionality
 - Shortcut conflict validation
 - Visual feedback for shortcut changes
-- Comprehensive documentation (README, QUICKSTART, CONTRIBUTING)
+- Comprehensive documentation (README, CONTRIBUTING)
 - MIT License
 
 ### Technical Details
